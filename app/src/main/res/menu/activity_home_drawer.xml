@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_marks_and_results"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Marks and Results" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Time Table" />
+        <item
+            android:id="@+id/nav_checkFees"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Fee Status" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_setupMeeting"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Setup a meeting" />
+            <item
+                android:id="@+id/nav_departments"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Departments" />
+            <item
+                android:id="@+id/nav_sports"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sports @ BVCOE" />
+            <item
+                android:id="@+id/nav_library"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Library" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact Us" />
+
+        </menu>
+    </item>
+
+</menu>

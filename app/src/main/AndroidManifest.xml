@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rohan.bvpgo20">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".NavigationDrawer.TimeTableActivity" />
+        <activity android:name=".NavigationDrawer.MarksAndResultsActivity" />
+        <activity android:name=".NavigationDrawer.AttendanceActivity" />
+        <activity android:name=".NavigationDrawer.FixMeetingActivity" />
+        <activity android:name=".NavigationDrawer.DepartmentsActivity" />
+        <activity android:name=".NavigationDrawer.PendingFeesActivity" />
+        <activity android:name=".NavigationDrawer.SportsActivity" />
+        <activity android:name=".NavigationDrawer.LibraryActivity" />
+        <activity android:name=".NavigationDrawer.AboutUsActivity" />
+        <activity android:name=".NavigationDrawer.ContactUsActivity" />
+        <activity android:name=".DevelopersActivity"></activity>
+    </application>
+
+</manifest>

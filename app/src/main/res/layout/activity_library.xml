@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/libraryScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="com.example.rohan.bvpgo20.NavigationDrawer.LibraryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/librarySlider"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+        </com.daimajia.slider.library.SliderLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:text="BVCOE Library is an organized collection of sources of infromation and Similar Resources, made accessible to a defined community for reference or borrowing. It provides physical or digital access to material, and may be a Physical Building, or a Virtual Space, or both. Libraries range in size from a few book shelves to several million items. BVCOE Library is enriched with Books, Novels, Newspapers,Journals/Magazines,CDs, Digital Library and other formats. BVCOE provides Book Bank Facility for all the students." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="serif"
+            android:text="Library is the main resource center of information. BVCOE Library has been enriched with:   " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:text="Number of books: 27, 428" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="serif"
+            android:text="Number of titles: 3,243" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="serif"
+            android:text="No. of National Journals: 47" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="serif"
+            android:text="No. of International Journals: 13 + INDEST IEL On-Line (More than 7000 IEEE Publications)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="serif"
+            android:text="More than 1500 CDs are available for the students in the Digital Library of the college." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="serif"
+            android:text="Open book access for all the students." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="serif"
+            android:text="Reading Room Facility - 12 Hrs. Access and Seating Capacity of 120." />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Bank Facility for all the students.
+Classrooms with Overhead Projectors, LCDs, and all other modern facilities such as Auditorium, Conference Halls, Hobby Club, Project Lab; and Computer Resources Center (CRC) has been created."
+            android:fontFamily="serif"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
